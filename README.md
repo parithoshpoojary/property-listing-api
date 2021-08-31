@@ -8,7 +8,5 @@ testing the webservice api.
 2. **applications.property** - includes the connector for MySQL.
 3. **pom.xml** - includes all of the dependencies necessary for the web application to work properly. 
 
-
-
-
+#### LICENSE can be [found here](LICENSE)
 
