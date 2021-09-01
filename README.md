@@ -65,6 +65,10 @@ If you already have maven installed in your system, you can compile the source t
 
 Run the generated binary with: `java -jar property-listing-api.jar`
 
-## LICENSE
-#### To view the license [click here](LICENSE)
+## License
+#### For more information about the license of the property-listing-api usage [click here](LICENSE)
 
+## Contributing
+To contribute to the repository, open an issue or a pull request.
+
+For more information about spring, check their [documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/).
