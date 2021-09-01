@@ -52,6 +52,7 @@ Once you are done configuring, do either of the following methods.
 ### Building with Maven (For developers)
 
 If you'd like to change something on the service itself and test it on your local machine, I'd personally prefer this method since it can use your local `.m2` repository.
+
 Build Requirements
 
 * Java 8 or Java 11
