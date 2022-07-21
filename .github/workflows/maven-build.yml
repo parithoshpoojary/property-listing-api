@@ -12,7 +12,6 @@ jobs:
    build:
     runs-on: windows-latest
 
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
@@ -20,11 +19,6 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Cache Maven packages
-      uses: actions/cache@v1
-      with:
-        path: ~/.m2
-        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-        restore-keys: ${{ runner.os }}-m2
+        cache: maven
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package -DskipTests --file pom.xml
